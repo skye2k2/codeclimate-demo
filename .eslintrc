@@ -1,4 +1,8 @@
 {
+  "env": {
+    "browser": true,
+  },
+
   // http://eslint.org/docs/rules/
   "rules": {
     //
