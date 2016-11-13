@@ -1,0 +1,33 @@
+---
+engines:
+  csslint:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+    config:
+      strings:
+      - FIXME
+      - TODO
+      - ToDo
+      - Todo
+      - To-Do
+      - HACK
+      - Hack
+  markdownlint:
+    enabled: true
+ratings:
+  paths:
+  - "**.css"
+  - "**.js"
+exclude_paths:
+- ".*"
+- node_modules/
+- "**/reports/**/*"
+- temp/
