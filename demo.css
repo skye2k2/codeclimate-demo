@@ -6,6 +6,7 @@
   }
   * #person-card.fs-person-card.large {
     margin: -0em;
+    /* TODO: Figure out why padding doesn't work */
     padding -10px;
     text-indent: -20px;
   }
