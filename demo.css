@@ -1,0 +1,12 @@
+/* HACK: We need to set some weird styles to fix old black and white televisions */
+@media tv and (monochrome) {
+  * #person-card.fs-person-card.large {
+    display: block;
+    display: block;
+  }
+  * #person-card.fs-person-card.large {
+    margin: -0em;
+    padding -10px;
+    text-indent: -20px;
+  }
+}
